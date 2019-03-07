@@ -1,0 +1,23 @@
+name: MarnicPermissions
+version: 1.0
+description: This is a permissions plugin
+ # We could place every author in the authors list, but chose not to for illustrative purposes
+ # Also, having an author distinguishes that person as the project lead, and ensures their
+ # name is displayed first
+author: MrMarnic
+website: http://forums.bukkit.org/threads/MyPlugin.31337/
+
+main: me.marnic.permissions.main.MarnicPermissions
+
+commands:
+  mp:
+    description: MarnicPermissions MCommand
+
+permissions:
+  mp.list:
+    description: List all active permissions
+  mp.rank.*:
+    description: All rank commands
+  mp.user.*:
+    description: All user commands
+  
